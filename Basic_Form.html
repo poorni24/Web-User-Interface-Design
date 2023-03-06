@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>Form</title>
+<body>
+ <form>
+    <table>
+        <tr>
+            <td>
+                <label for="uname">Name</label>
+            </td>
+            <td>
+                <input type="text" id="uname" name="username">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="uemail">Email</label>
+            </td>
+            <td>
+                <input type="text" id="uemail" name="usermail">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="age">Age</label>
+            </td>
+            <td>
+                <input type="text" name="userage" id="age" size="2" maxlength="2">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Country</label>
+            </td>
+            <td>
+                <input type="text" value="India" name="country" disabled>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                    <label for="pass">Password</label>
+            </td>
+            <td>
+                    <input type="password" id="pass">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="res">Resume</label>
+            </td>
+            <td>
+                <input type="file" id="res">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Hobbies</label>
+            </td>
+            <td>
+                <label>
+                    <input type="checkbox" checked> Drawing
+                </label>
+                <label>
+                    <input type="checkbox"> Singing
+                </label>
+                <label>
+                    <input type="checkbox"> Playing
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Gender</label>
+            </td>
+            <td>
+                <label>
+                    <input type="radio" value="f" name="gender"> Female</label>
+                    <label>
+                    <input value="m" type="radio" name="gender"> Male</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                    <label for="city">City</label>
+            </td>
+            <td>
+                    <select id="city" name="city">
+                        <option disabled selected>--Select City--</option>
+                                <option>New Delhi</option>
+                                <option>Mumbai</option>
+                                <option>Chennai</option>
+                                <option>Kolkata</option>
+                                <option>Madurai</option>
+                                <option>Banglore</option>
+                                <option>Koci</option>
+                                <option>Hyderabad</option>
+                     <select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Address</label>
+            </td>
+            <td>
+                <textarea rows="4" cols="40"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Submit">
+                <input type="reset">
+            </td>
+        </tr>
+    </table>
+</form>
