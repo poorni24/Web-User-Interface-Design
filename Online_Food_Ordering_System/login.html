@@ -1,0 +1,71 @@
+<html>
+    <title>Portal Login</title>
+    <style>
+    form {
+        border: 3px solid #f1f1f1;
+    }
+    .content{
+        max-width:300px;
+        margin:auto;
+        padding:10px;
+    }
+    body{
+        background: url("bgimg.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover ;
+    }
+    
+    input[type=text],
+    input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px ;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    button {
+        background-color: gold;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+    .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: blueviolet;
+    }
+    .container {
+        padding: 16px;
+    }
+    span.psw {
+        float: right;
+        padding-top: 16px;
+    }
+
+    </style>
+    <body>
+        <div class="content">
+        <h2>Login Form</h2>
+        <form>
+                     
+            <div class="container">
+                <label><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <button type="submit">Login</button>
+                <input type="checkbox" checked="checked"> Remember Me
+                </div>
+                <div class="container" style="background-color:#f1f1f1">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <span class="psw"><a href="#">Forgot Password?</a></span>
+            </div>
+        </form>
+        </div>
+    </body>
+</html>
